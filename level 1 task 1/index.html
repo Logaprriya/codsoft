@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hakobafusion</title>
+    <script>
+        function scrollToAboutUs() {
+           
+            document.getElementById("about-us").scrollIntoView({ behavior: "smooth" });
+        }
+    </script>
+</head>
+<body>
+    <main class="container">
+      <div class="container__left">
+        <div class="ribbon__white">
+          <h1><span>Hakoba</span>Fusion<span></span></h1>
+          <h3>"HaKobaFusion specializing in fusing classic and modern fashion, customized clothing options."</h3>
+        </div>
+        <div class="top-container"></div>
+        <img src="white straight look.webp" style="display: block; margin: 0 auto; height: 600px; width: -100px;" alt="Increased Height Image" />
+      </div>
+      <div class="container__right">
+        <div class="navbar">
+          <span>Home</span>
+          <span>Collections</span>
+          <span onclick="scrollToAboutUs()">About Us</span> 
+          <span>Contact</span>
+          <span class="join">Join</span>
+        </div>
+        <div class="content">
+          <h1>Hey!<br /><span>Dive into</span><br />HakobaFusion<span>.</span></h1>
+          <p>
+            At HakobaFusion, we bring you a curated collection of the finest hakoba dress materials, where tradition meets modernity. 
+            Our handpicked selection showcases the delicate patterns and intricate embroidery that define hakoba, providing you with exquisite fabrics 
+            for all your fashion and crafting needs. Explore our extensive range, discover inspiring designs, and experience the exceptional quality 
+            that sets us apart.
+          </p>
+        </div>
+
+        <div class="carousal">
+          <div class="slide">
+            <div class="slide__image"></div>
+          </div>
+          <div class="slide">
+            <div class="slide__image"></div>
+          </div>
+          <div class="slide">
+            <div class="slide__image"></div>
+            <div class="play"><i class="ri-arrow-right-s-line"></i></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section id="about-us" style="padding: 2rem; background-color: #f1b9fa; text-align: center;">
+      <h2>About Us</h2>
+       <p>
+    HakobaFusion is a fashion company dedicated to blending classic styles with modern trends.we have specialized in customized clothing, 
+    offering unique designs that combine tradition with innovation. Our mission is to provide high-quality, 
+    tailored fashion that reflects the individuality and personal style of our clients. We believe that clothing is an expression of identity.
+    At HakobaFusion, we value craftsmanship, quality, and sustainability. Our clothing is made from premium fabrics and crafted with attention to detail, 
+    ensuring that each piece is both stylish and durable. Our team consists of skilled designers, tailors, 
+    artisans who are passionate about fashion and dedicated to creating exceptional clothing. 
+    We work closely with our clients to understand their preferences and create pieces that exceed their expectations.
+    Looking ahead, we envision a future where HakobaFusion continues to be a leader in fashion innovation, offering our clients the best of both worlds.
+      </p>
+    </section>
+  </body>
+</html>
